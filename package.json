@@ -1,6 +1,6 @@
 {
   "name": "elementui-formkit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A data-driven front-end form control based on elementui",
   "main": "dist/index.js",
   "scripts": {
