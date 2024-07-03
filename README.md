@@ -6,6 +6,7 @@ A data-driven front-end form control based on elementui.
 
 ```sh
 npm install elementui-formkit --save
+```
 
 ## 组件说明
 基于vue-element表单组件进行的组合封装，通过数据流方式将表单数据化，项目基于vue-elementUI
