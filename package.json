@@ -1,0 +1,30 @@
+{
+  "name": "elementui-formkit",
+  "version": "1.0.0",
+  "description": "A data-driven front-end form control based on elementui",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "vue-cli-service build --target lib --name elementui-formkit src/main.js"
+  },
+  "keywords": [
+    "vue",
+    "form",
+    "component"
+  ],
+  "author": "wxsub.com",
+  "license": "MIT",
+  "dependencies": {
+    "element-ui": "^2.15.1",
+    "lodash": "^4.17.21",
+    "vue": "^2.6.12"
+  },
+  "peerDependencies": {
+    "element-ui": "^2.15.1"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.8",
+    "less": "^4.2.0",
+    "less-loader": "^12.2.0",
+    "vue-loader": "^17.4.2"
+  }
+}
