@@ -16,7 +16,4 @@ export const componentsList = {
 
 const components = Object.keys(componentsList)
 
-export default [
-  'input',
-  ...components
-]
+export default ['input', ...components]
