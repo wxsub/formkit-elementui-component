@@ -79,7 +79,7 @@ export default {
     FormData: {
       get() {
         // eslint-disable-next-line vue/no-side-effects-in-computed-properties
-        // if (this.value && Object.keys(this.value).length === 0) this.UNIQUE_KEY = Number(new Date())
+        if (this.value && Object.keys(this.value).length === 0) this.clearValidate()
         return this.value || {}
       },
       set(newVal) {
